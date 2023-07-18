@@ -1,0 +1,79 @@
+/* Write your CSS here */
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.withdrawal-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  width: 450px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.profile-logo {
+  display: flex;
+  align-items: center;
+}
+.profile-logo-card {
+  height: 50px;
+  width: 50px;
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  color: #7c3aed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 26px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #d4d2db;
+}
+.balance-card {
+  display: flex;
+  justify-content: space-between;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #382f5a;
+  font-weight: 900;
+}
+
+.balance {
+  color: #c4c4c4;
+  font-size: 35px;
+}
+.description {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+.side-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #c4c4c4;
+  font-weight: 800;
+}
+.side-para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #585076;
+  font-weight: 400;
+}
+.denomination-card {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
